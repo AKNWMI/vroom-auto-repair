@@ -48,37 +48,22 @@ color: black;
     text-align: center;
     color: orangered;
 }
-
-
-
-.bbgg-imgsx{
+.ggy-container{
     background-image: url(../vroom-auto-repair/images/index-image-2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     height: 400px;
 }
 
-.overlayers{
+.ggy-overlay{
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
     align-items: center;
+    justify-content: center;
 
-}
-.overlayers h1{
-color: white;
-
-}
-.overlayers h4{
-    color: orangered;
-}
-
-.jaywon-btn{
-    border: none;
-    background-color: orangered;
-    color: white;
-    border-radius: 10px;
-    padding: 2px 7px;
-    cursor: pointer;
 }
