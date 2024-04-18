@@ -13,3 +13,22 @@ body{
     text-align: center;
     padding: 50px 0;
 }
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.grid2-items {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+button {
+    border: none;
+    padding: 8px 20px;
+    background:orange;
+    color: white;
+    cursor: pointer;
+    font-weight: 800;
+}
