@@ -12,6 +12,7 @@ body{
     margin: auto;
     text-align: center;
     padding: 50px 0;
+    
 }
 .grid2 {
     display: grid;
@@ -22,7 +23,31 @@ body{
     height: 240px;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    text-align: center;
+}
+.grid2-items h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    /* height: 240px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0 ;
+}
+.grid2-items p{
+    font-family:cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+
+    /* height: 240px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 button {
     border: none;
@@ -31,4 +56,30 @@ button {
     color: white;
     cursor: pointer;
     font-weight: 800;
+    text-align: center;
+    border-radius: 10px;
+}
+.img-1{
+    background-image:none;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+}
+.img-2{
+    background-image:none;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+}
+.img-3{
+    background-image:none;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
 }
