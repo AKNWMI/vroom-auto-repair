@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Serif Display", serif;
+}
+footer {
+    background-color: #333;
+    color: #ffffffec;
+    padding: 0;
+    width: auto;
+    margin: 0;}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;}
+
+.footer-column {
+    width: 30%;
+    align-content: center;}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;}
+
+.footer-column p {
+    font-size: 14px;
+    margin-bottom: 15px;}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration-color: gray;}
+
+.footer-column ul li {
+    margin-bottom: 5px;}
+.social-links {
+    display: flexbox;}
+
+.social-links li {
+    margin-right: 10px;}
+
+.s-icon {
+    margin: 0 10px;
+    width: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 0 0 0 5px;}
+.site-footer-input {
+    height: 35px;
+    width: 122%;
+    border-radius: 10px;
+    display: flex;
+    background-color: #333;
+    border: 2px solid gray;}
+
+.footer-copy{
+    text-decoration: none;
+    margin-left: 530px;
+    color: white;}
+
+.footer-column3{
+    margin-top: 15px;
+}
+
+
+    /* NAVIGATION */
+.navbar {
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    height: 28px;
+    width: 100%;
+    margin: auto;}
+.logo {
+    color: #ff6900;
+    font-weight: bold;
+    font-size: 24px;
+    height: 28px;
+    width: 28px;
+    padding: 0 16px;}
+.account-pic{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    padding: 0 16px;
+    display: flex;}
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    margin-left: 70px;
+    gap: 40px;}
+    
+.nav-check-box{
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    gap: 10px;}
+
+.nav-sep{
+     flex-grow: 0.8;}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 105px 0 0;
+    font-weight: bold;}
+.nav-icons {
+    list-style-type: none;
+    display: flex;
+    gap: 98px;
+    padding: 0 0 0 147px;}
+.nav-sep2{
+     flex-grow: 0.8;}
+.nav-check-box input{
+    width: 20px;
+}
+.nav-icon{
+    text-decoration: none;
+    background: rgb(80 78 78);
+    border-radius: 5px;
+    color: #0e0a0a;
+    font-size: 17px;
+    text-align: center;}
+
+.nav-icons li{
+    padding: 0 5px 0 0;
+}
