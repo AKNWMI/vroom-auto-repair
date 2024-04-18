@@ -7,3 +7,9 @@
 body{
     font-family: "DM Serif Display", serif;
 }
+.garage-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
