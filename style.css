@@ -7,3 +7,11 @@
 body{
     font-family: "DM Serif Display", serif;
 }
+
+.bluez-container{
+    height: 400px;
+    background-image: url(../vroom-auto-repair/images/index-image-1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
